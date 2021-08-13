@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* main{
+    background-image: url(../imgs/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+body{
+    background: url(imgs/weather.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#header{
+    text-align: center;
+}
+.headerToDay{
+    display: flex;
+    justify-content: space-around;
+    height: 20%;
+    margin-top: 20px;
+}
+.weather{
+    /* width: 50%;
+    height: 70vh; */
+    padding-bottom: 90px;
+ 
+}
+.toDay{
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 30%;
+    background: rgba(106, 183, 255, 0.344);
+}
+.maxMinTemp{
+    width: 19%;
+    display: flex;
+    flex-direction: row;
+}
+.maxMinTemp img{
+    width: 55%;
+    height: 55%;
+    display: flex;
+    justify-content: space-around;
+}
+.mainToDay{
+    display: flex;
+    justify-content: space-around;
+}
+.information{
+    width: 15%;
+}
+.icon{
+    padding-top: 20px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.icon p{
+    
+    font-size: 30px;
+    width: 62vh;
+}
+.temp{
+    width: 35%;
+    
+}
+.city{
+    width: 70%;
+}
+#temp{
+    display: flex;
+    flex-direction: row;
+}
+#drop{
+    width: 30px;
+}
+.fallout{
+    display: flex;
+    flex-direction: row;
+}
+.information p{
+    margin-top: 23px;
+}
+.icon img{
+    width: 100%;
+}
+.temp p{
+    font-size: 130px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+#temp span{
+    font-size: 18px;
+}
+.city h1{
+    font-size: 40px;
+}
+#iconImg{
+    width: 120px;
+    height: 120px;
+    margin-left: 60px;
+}
+.week{
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 60%;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    margin-top: 20px;
+    
+    background: rgba(106, 183, 255, 0.344);
+}
+.weekDay p{
+    font-size: 18px;
+}
+.wind{
+    width: 150px;
+}
+
+.wind p{
+    font-size: 11px;
+}
+
+.max_temp{
+    display: flex;
+    width: 28px;
+    margin: 0 auto;
+}
+.weeksImg{
+    width: 70%;
+    margin: 0 auto;
+}
+.weeksImg img{
+    padding-top: 15px;
+    width: 60px;
+    height: 60px;
+}
+.windspdMaxKmh{
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+    color: rgb(20, 47, 70);
+    background-color: rgba(245, 240, 240, 0.344);
+    padding: 10px;
+    border-radius: 10px;
+}
+.daysOf{
+    width: 33%;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    
+    
+
+}
+
+.weekss{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(252, 248, 248, 0.344);
+
+    width: 70%;
+    margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+    #header{
+        font-size: 20px;
+    }
+    .toDay{
+        width: 50%;
+        height: 300px;
+    }
+    .city{
+        font-size: 15px;
+    }
+    #temp img{
+        width: 10px;
+        height: 13px;
+    }
+    #temp span{
+        font-size: 11px;
+    }
+    .dayToDay{
+        font-size: 15px;
+    }
+    
+
+
+}
+
+/* //Medium devices (tablets, минимальная ширина области просмотра 768px и выше) */
+@media (max-width: 768px) {
+
+}
+
+/* // Large devices (desktops, минимальная ширина области просмотра 992px и выше) */
+@media (max-width: 992px) {
+
+}
+
+/* // Extra large devices (large desktops, минимальная ширина области просмотра 1200px и выше) */
+@media (max-width: 1200px) {
+
+}
